@@ -10,6 +10,10 @@ Airbnb/prediction_example.csv
 
 # Fichiers générés
 MaPredictionFinale.csv
+optuna_airbnb.db
+
+# Claude Code (tooling local)
+.claude/
 
 # PDF du cours
 *.pdf

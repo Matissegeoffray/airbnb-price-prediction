@@ -68,13 +68,6 @@ Three model families evaluated under the same 5-fold cross-validation protocol:
 
 ---
 
-## 📈 Visualizations
-
-> Add here: SHAP beeswarm plot, train/val R² comparison, feature importance chart.
-> *(Export figures from the notebook and place them in `figures/` then reference with `![alt](figures/filename.png)`)*
-
----
-
 ## 📂 Project structure
 
 ```

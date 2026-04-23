@@ -72,16 +72,15 @@ Three model families evaluated under the same 5-fold cross-validation protocol:
 
 ```
 airbnb-price-prediction/
-├── notebooks/
-│   └── airbnb_prediction.ipynb    # Main analysis notebook
-├── data/
-│   ├── train.csv
-│   └── test.csv
-├── figures/                        # Exported plots (SHAP, model comparison, etc.)
-├── optuna_airbnb.db                # Persistent Optuna study
-├── requirements.txt
+├── Airbnb/
+│   └── Explication.txt            # Dataset description (CSVs excluded from git — too large)
+├── airbnb_prediction.ipynb        # Main analysis notebook
+├── example.ipynb                  # Reference baseline notebook
+├── .gitignore
 └── README.md
 ```
+
+> Data files (`airbnb_train.csv`, `airbnb_test.csv`) and the Optuna SQLite study are excluded from git due to size.
 
 ---
 
@@ -90,8 +89,8 @@ airbnb-price-prediction/
 ```bash
 git clone https://github.com/Matissegeoffray/airbnb-price-prediction.git
 cd airbnb-price-prediction
-pip install -r requirements.txt
-jupyter notebook notebooks/airbnb_prediction.ipynb
+# Add your own airbnb_train.csv and airbnb_test.csv in Airbnb/
+jupyter notebook airbnb_prediction.ipynb
 ```
 
 ---

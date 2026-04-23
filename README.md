@@ -77,7 +77,6 @@ airbnb-price-prediction/
 ├── data/
 │   ├── airbnb_data.zip            # Train + test + prediction_example (compressed)
 │   └── Explication.txt
-├── figures/                        # Exported plots (SHAP, model comparison, etc.)
 ├── optuna_airbnb.db                # Persistent Optuna study
 ├── requirements.txt
 └── README.md

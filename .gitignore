@@ -4,9 +4,9 @@ _bmad/
 _bmad-output/
 
 # Données brutes (trop lourdes pour git)
-Airbnb/airbnb_train.csv
-Airbnb/airbnb_test.csv
-Airbnb/prediction_example.csv
+data/airbnb_train.csv
+data/airbnb_test.csv
+data/prediction_example.csv
 
 # Fichiers générés
 MaPredictionFinale.csv

@@ -75,8 +75,8 @@ airbnb-price-prediction/
 ├── notebooks/
 │   └── airbnb_prediction.ipynb    # Main analysis notebook
 ├── data/
-│   ├── train.csv
-│   └── test.csv
+│   ├── airbnb_data.zip            # Train + test + prediction_example (compressed)
+│   └── Explication.txt
 ├── figures/                        # Exported plots (SHAP, model comparison, etc.)
 ├── optuna_airbnb.db                # Persistent Optuna study
 ├── requirements.txt
@@ -91,6 +91,8 @@ airbnb-price-prediction/
 git clone https://github.com/Matissegeoffray/airbnb-price-prediction.git
 cd airbnb-price-prediction
 pip install -r requirements.txt
+# Unzip the dataset
+cd data && unzip airbnb_data.zip && cd ..
 jupyter notebook notebooks/airbnb_prediction.ipynb
 ```
 
